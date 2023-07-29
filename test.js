@@ -1,5 +1,12 @@
-const sum = (a, b) => {
+// const sum = (a, b) => {
   return a + b;
 };
 
-module.exports = sum;
+module.exports = {
+  subtract: (c, d) => {
+    return c - d;
+  },
+  multiply: (c, d) => {
+    return c * d;
+  },
+};
